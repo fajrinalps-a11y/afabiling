@@ -1,0 +1,20 @@
+[Unit]
+Description=NetBilling Pro - Sistem Pembayaran WiFi & Manajemen ISP
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/var/www/netbilling
+ExecStart=/usr/bin/npm start
+Restart=always
+RestartSec=5
+Environment=NODE_ENV=production
+Environment=PORT=3000
+
+# Pengamanan standar systemd
+ProtectSystem=full
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

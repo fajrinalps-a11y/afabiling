@@ -1,0 +1,10 @@
+{
+  "name": "NetBilling Pro - Sistem Pembayaran WiFi & Manajemen ISP",
+  "description": "Platform pembayaran tagihan WiFi otomatis, portal mandiri pelanggan, integrasi Payment Gateway QRIS/VA, MikroTik & GenieACS, peta GIS ODC/ODP, dan notifikasi WhatsApp/Telegram.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
